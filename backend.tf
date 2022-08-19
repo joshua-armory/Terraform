@@ -4,7 +4,7 @@ terraform {
         organization = "Arm11"
 
         workspaces {
-            name = "local"
+            name = "josh"
         }
     }
 }
