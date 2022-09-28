@@ -1,4 +1,4 @@
 
-output "instance_ip_addr" {
+output "workspace" {
   value = terraform.workspace
 }
