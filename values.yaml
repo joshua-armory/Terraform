@@ -1,0 +1,4 @@
+crds.additionalAnnotations: {
+    strategy.spinnaker.io/versioned: 'false',
+    strategy.spinnaker.io/replace: 'true'
+    }
