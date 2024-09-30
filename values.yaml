@@ -1,1 +1,10 @@
-crds.additionalAnnotations: "strategy.spinnaker.io/replace: 'true'"
+crds:
+  # -- Defines whether the KEDA CRDs have to be installed or not.
+  install: true
+
+  # -- Custom annotations specifically for CRDs
+  additionalAnnotations:
+    {
+    strategy.spinnaker.io/versioned: 'false',
+    strategy.spinnaker.io/replace: 'true'
+    }
